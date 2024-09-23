@@ -5,6 +5,13 @@ body {
     background-color: #f7f8fc;
     color: #2f353f;
 }
+
+body.standalone .header-container {
+    padding-top: 20px; /* Add padding to prevent cutting off the top */
+}
+
+
+
 .container {
     width: 100%;
     max-width: 414px;
