@@ -11,6 +11,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="../fonts.googleapis.com/css78ac.css?family=Roboto:400,500&amp;display=swap">
     <link rel="stylesheet" href="style.css">
+    <script>
+        // Detect if running as a Web Clip (Standalone mode) and apply specific styles
+            if (window.navigator.standalone) {
+            document.body.classList.add('standalone');
+        }
+    </script>
 </head>
 <body>
     <div class="header-container">
