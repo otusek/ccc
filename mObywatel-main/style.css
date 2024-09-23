@@ -357,3 +357,9 @@ body.android .action-button img.arrow-icon {
         padding: 10px;
     }
 }
+
+.document-images img, .document-images video {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
