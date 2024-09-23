@@ -29,28 +29,23 @@
             box-sizing: border-box;
             padding-bottom: 100px; /* Adjusted space for the fixed bottom bar */
         }
-.header-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Upewnia się, że nagłówek jest nad innymi elementami */
-    background-color: #fff; /* Tło nagłówka */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Opcjonalny cień dla estetyki */
-    padding: 0; /* Usuń ewentualne odstępy wewnętrzne */
-    margin: 0; /* Usuń marginesy */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px; /* Dostosuj padding wewnątrz nagłówka, jeśli jest potrzebny */
-    max-width: 414px; /* Szerokość dostosowana do urządzeń mobilnych */
-    margin: 0 auto; /* Wyśrodkuj treść na stronie */
-    box-sizing: border-box;
-}
-.content {
-    margin-top: 60px; /* Dopasuj do wysokości nagłówka */
-}
+        .header-container {
+            width: 100%;
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            max-width: 414px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
         .header img {
             width: 20px;
             height: 20px;
